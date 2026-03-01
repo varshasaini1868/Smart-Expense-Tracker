@@ -9,7 +9,7 @@ public class DatabaseConnection {
         try {
             String url = "jdbc:mysql://localhost:3306/expense_tracker";
             String user = "root";
-            String password = "Qwer123#"; 
+            String password = "Passwoard"; 
 
             Connection conn = DriverManager.getConnection(url, user, password);
             System.out.println("Connected Successfully!");
@@ -22,3 +22,4 @@ public class DatabaseConnection {
         }
     }
 }
+
